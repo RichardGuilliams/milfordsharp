@@ -1,0 +1,297 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Page Style */
+/* ----------------------------------------------------------------------------------------- */
+:root{
+  --primaryColor: rgb(48, 74, 166);
+  --textColor: rgb(222, 210, 210);
+  --textColorHover: rgb(197, 183, 183);
+  --headerSizeSmall: 1.25rem;
+  --headerSizeMedium: 1.5rem;
+  --headerSizeLarge: 1.75rem;
+  --fontSizeTiny: .75rem;
+  --fontSizeSmall: 1rem;
+  --fontSizeMedium: 1.25rem;
+  --fontSizeLarge: 1.5rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-style: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:visited{
+  color: var(--textColor);
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--primaryColor)
+}
+
+/* Header */
+
+.header{
+  background-color: var(--primaryColor);
+  display: flex;
+}
+
+.header img{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: 1rem auto 1rem 1rem;
+}
+
+.header nav{
+  padding-right: .75rem;
+  align-self: center;
+  justify-content: end;
+}
+
+.header nav > a{
+  color: var(--textColor);
+  font-size: var(--fontSizeSmall);
+  padding: 0rem .5rem;
+}
+
+/* Section Hero */
+
+.section-hero img{
+  width: 100%;
+  height: 40dvh;
+  z-index: -1;
+  position: absolute !important;
+  object-fit: cover;
+}
+
+.section-hero div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #00000090;
+  width: 100%;
+  height: 40dvh;
+}
+
+.section-hero div > h1{
+  color: var(--textColor);
+  margin-top: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  font-size: var(--headerSizeLarge);
+}
+
+.section-hero div > p{
+  color: var(--textColor);
+  font-size: var(--fontSizeSmall);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.section-hero div > a{
+  color: var(--textColor);
+  font-size: var(--fontSizeSmall);
+}
+
+/* Section Main */
+
+.section-main{
+  background-color: white;
+  padding: 2rem;
+}
+
+.section-main h2{
+  font-size: var(--headerSizeSmall);
+  margin-bottom: 1rem;
+}
+
+.section-main h3{
+  font-size: var(--headerSizeSmall);
+  margin-bottom: 1rem;
+}
+
+.section-main ul > li{
+  padding-bottom: 1.25rem;
+}
+
+.section-main p{
+  font-size: var(--fontSizeSmall);
+  margin-bottom: 1rem;
+}
+
+.section-main p > a{
+  font-size: var(--fontSizeSmall);
+}
+
+.section-main-social{
+  margin-left: 1rem;
+}
+
+/* Footer */
+
+.footer{
+  padding: 2rem;
+  padding-bottom: 1rem;
+  background-color: var(--primaryColor);
+}
+
+.footer ul > li{
+  padding-bottom: 1rem;
+  display: flex;
+}
+
+.footer ul > li > p{
+  color: white;
+  font-size: var(--fontSizeSmall);
+}
+
+.footer ul > li > a{
+  color: white;
+  font-size: var(--fontSizeSmall);
+}
+
+.footer-logo{
+  width: 30px;
+  height: 30px;
+}
+
+.footer div{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.footer-social li{
+  padding-bottom: 0 !important;
+}
+
+.footer-copyright{
+  align-content: end;
+  justify-content: end;
+  color: white;
+  font-size: var(--fontSizeTiny);
+}
+
+@media (min-width: 600px){
+
+  /* Header */
+  .header img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .header nav > a{
+    font-size: 1.25rem;
+  }
+
+  /* Section Hero */
+  
+  .section-hero img{
+    height: 60dvh;
+  }
+  
+  .section-hero div{
+    height: 60dvh;
+  }
+
+  .section-hero div > h1{
+    font-size: 3.75rem;
+  }
+
+  .section-hero div > p{
+    font-size: 1.75rem;
+  }
+
+  /* Section Main */
+  .section-main h2{
+    font-size: 2.25rem;
+  }
+
+  .section-main h3{
+    font-size: 2rem;
+  }
+  
+  .section-main p{
+    font-size: 1.25rem;
+  }
+
+  .section-main p > a{
+    font-size: 1.25rem;
+  }
+
+  /* Footer */
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer ul > li > p{
+    font-size: 1.25rem;
+  }
+
+  .footer ul > li > a{
+    font-size: 1.25rem;
+  }
+
+  .footer div{
+    flex-direction: column;
+  }
+
+  .footer-social li{
+    justify-content: end;
+  }
+
+  .footer-social li > a > img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-copyright{
+    font-size: 1rem;
+  }
+}
