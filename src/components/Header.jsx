@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <div className="header">
-            <title>Milford Sharpening and Restoration</title>
+            <title>Knife Sharpening Service for Milford and Loveland, OH - Knife Sharpening | Sharpening Service | Blade Maintenance</title>
             <img src="./images/logo.jpg" alt="msr logo" width={50} height={50}></img>
             <nav>
                 <a href="/">Home</a>
