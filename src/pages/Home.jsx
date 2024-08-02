@@ -7,7 +7,7 @@ const Section1 = () => {
     return (
         <div className='section-main'>
             <title>Professional Knife Sharpening Services in Milford and Loveland, OH</title>
-            <h2>Professional Blade Sharpening and Restoration</h2>
+            <h1>Professional Blade Sharpening and Restoration</h1>
             <p>
                 Milford Sharpening and Restoration is dedicated to the care and maintenance of knives, 
                 scissors, and tools for households and businesses in Milford, Loveland, 

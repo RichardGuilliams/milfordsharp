@@ -6,7 +6,7 @@ const Intro = () => {
     return (
         <div className='section-main'>
             <title>About Milford Sharpening and Restoration</title>
-            <h2>Introduction</h2>
+            <h1>Introduction</h1>
             <p>
                 Welcome to Milford Sharpening and Restoration, where precision meets perfection. 
                 We specialize in providing top-notch knife sharpening and restoration services to 
