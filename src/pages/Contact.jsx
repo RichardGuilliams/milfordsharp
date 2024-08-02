@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 const Section1 = () => {
     return (
         <div className='section-main'>
+            <title>Contact Milford Sharpening and Restoration</title>
             <h2>Contact Us</h2>
             <p>Please call us at <a href="tel:+9703076557">(970)307-6557</a> for a free estimate.</p>
             <p>or email us at <a href="mailto:milfordsharp@gmail.com">milfordsharp@gmail.com</a>.</p>

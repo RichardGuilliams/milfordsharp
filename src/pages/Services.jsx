@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 const ServicesSection = () => {
     return (
         <div className='section-main'>
+            <title>Professional Knife Sharpening and Restoration Services</title>
             <h2>Services Include</h2>
             <ul>
                 <li>

@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 const Intro = () => {
     return (
         <div className='section-main'>
+            <title>About Milford Sharpening and Restoration</title>
             <h2>Introduction</h2>
             <p>
                 Welcome to Milford Sharpening and Restoration, where precision meets perfection. 
