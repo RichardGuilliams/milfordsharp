@@ -44,9 +44,9 @@
   --primaryColor: rgb(48, 74, 166);
   --textColor: rgb(222, 210, 210);
   --textColorHover: rgb(197, 183, 183);
-  --headerSizeSmall: 1.25rem;
-  --headerSizeMedium: 1.5rem;
-  --headerSizeLarge: 1.75rem;
+  --headerSizeSmall: 1.5rem;
+  --headerSizeMedium: 1.75rem;
+  --headerSizeLarge: 2.75rem;
   --fontSizeTiny: .75rem;
   --fontSizeSmall: 1rem;
   --fontSizeMedium: 1.25rem;
@@ -144,6 +144,10 @@ h1, h2, h3, h4, h5, h6{
   padding: 2rem;
 }
 
+.section-main h1{
+  font-size: var(--headerSizeMedium);
+  margin-bottom: 1.25rem;
+}
 .section-main h2{
   font-size: var(--headerSizeSmall);
   margin-bottom: 1rem;
@@ -187,6 +191,7 @@ h1, h2, h3, h4, h5, h6{
 .footer ul > li > p{
   color: white;
   font-size: var(--fontSizeSmall);
+  margin-right: .5rem;
 }
 
 .footer ul > li > a{
@@ -247,6 +252,11 @@ h1, h2, h3, h4, h5, h6{
   }
 
   /* Section Main */
+  .section-main h1{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+
   .section-main h2{
     font-size: 2.25rem;
   }
