@@ -49,6 +49,26 @@ const Story = () => {
     )
 }
 
+const Goals = () => {
+    return (
+        <div className='section-main'>
+            <h2>Our Future Plans</h2>
+            <p>In the near future Milford Sharpening and Restoration plans to expand our business by upgrading our equipment, registering our business under an llc and
+                obtaining a store front to act as a permanent location to conduct our knife sharpening services
+            </p>
+        </div>
+    )
+}
+
+const Locations = () => {
+    return (
+        <div className='section-main'>
+            <h1>Our Service Areas</h1>
+            <p>Milford Sharpening and Restoration offers our services to Milford, Loveland, Miamiville, Goshen, Blue Ash, Symmes, Indian Hill and other surrounding areas.</p>
+        </div>
+    )
+}
+
 const About = () => {
     return (
         <div>
@@ -57,6 +77,8 @@ const About = () => {
             <Intro/>
             <OurMission/>
             <Story/>
+            <Locations/>
+            <Goals/>
             <Footer/>
         </div>
     )

@@ -16,6 +16,13 @@ const Section1 = () => {
                 receive the best care possible. We take pride in our customer satisfaction and 
                 consistently deliver high-quality results.
             </p>
+            <p>
+                Started in July of 2024, with over 6 years of experience sharpening knives for personal and
+                professional use, we are dedicated to ensuring that your knives have a razor sharp edge that will make 
+                your daily cutting tasks safer and more satisfying.
+            </p>
+            <p>With Milford Sharpening and Restoration, your knives and tools will receive the same care and treatment we give our own knives. Handling each blade with the highest amount of respect and expertise possible.
+            </p>
         </div>
     )
 }
